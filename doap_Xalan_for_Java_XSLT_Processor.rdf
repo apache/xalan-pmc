@@ -50,7 +50,7 @@
     </release>
     <repository>
       <SVNRepository>
-        <location rdf:resource="https://svn.apache.org/repos/asf/xerces/java"/>
+        <location rdf:resource="https://svn.apache.org/repos/asf/xalan/java"/>
         <browse rdf:resource="http://svn.apache.org/viewvc/xalan/java/"/>
       </SVNRepository>
     </repository>
