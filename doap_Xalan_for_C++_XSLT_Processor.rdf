@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+   
+         http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <Project rdf:about="http://xml.apache.org/xalan-j/">
+    <created>2011-09-11</created>
+    <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
+    <name>Apache Xalan for C++ XSLT Processor</name>
+    <homepage rdf:resource="http://xml.apache.org/xalan-j/" />
+    <asfext:pmc rdf:resource="http://xalan.apache.org" />
+    <shortdesc>Xalan-C++ is an XSLT processor written in C++.</shortdesc>
+    <description>Xalan-C++ is an XSLT processor for transforming XML documents into HTML, text, or other XML document types.</description>
+    <bug-database rdf:resource="http://issues.apache.org/jira/browse/XALANC" />
+    <mailing-list rdf:resource="http://xml.apache.org/mail.html" />
+    <download-page rdf:resource="http://www.apache.org/dyn/closer.cgi/xml/xalan-c" />
+    <programming-language>C++</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/xml" />
+    <release>
+      <Version>
+        <name>Xalan-C++</name>
+        <created>2005-10-22</created>
+        <revision>1.10</revision>
+      </Version>
+    </release>
+    <repository>
+      <SVNRepository>
+        <location rdf:resource="https://svn.apache.org/repos/asf/xalan/c/trunk/"/>
+        <browse rdf:resource="https://svn.apache.org/repos/asf/xalan/c/trunk/"/>
+      </SVNRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Xalan-C++ Development Team</foaf:name>
+        <foaf:mbox rdf:resource="mailto:xalan-dev@xml.apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>XML Path Language (XPath) Version 1.0</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>XPath 1.0</asfext:id>
+      <asfext:url rdf:resource="http://www.w3.org/TR/xpath/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>XSL Transformations (XSLT) Version 1.0</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>XSLT 1.0</asfext:id>
+      <asfext:url rdf:resource="http://www.w3.org/TR/xslt"/>
+    </asfext:Standard></asfext:implements>
+  </Project>
+</rdf:RDF>
