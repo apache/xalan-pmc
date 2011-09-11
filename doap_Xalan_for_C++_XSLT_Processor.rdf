@@ -21,11 +21,11 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:asfext="http://projects.apache.org/ns/asfext#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <Project rdf:about="http://xml.apache.org/xalan-j/">
+  <Project rdf:about="http://xml.apache.org/xalan-c/">
     <created>2011-09-11</created>
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
     <name>Apache Xalan for C++ XSLT Processor</name>
-    <homepage rdf:resource="http://xml.apache.org/xalan-j/" />
+    <homepage rdf:resource="http://xml.apache.org/xalan-c/" />
     <asfext:pmc rdf:resource="http://xalan.apache.org" />
     <shortdesc>Xalan-C++ is an XSLT processor written in C++.</shortdesc>
     <description>Xalan-C++ is an XSLT processor for transforming XML documents into HTML, text, or other XML document types.</description>
