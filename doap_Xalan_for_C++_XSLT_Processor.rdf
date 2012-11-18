@@ -21,19 +21,29 @@
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
          xmlns:asfext="http://projects.apache.org/ns/asfext#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <Project rdf:about="http://xml.apache.org/xalan-c/">
+  <Project rdf:about="http://xalan.apache.org/xalan-c/">
     <created>2011-09-11</created>
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20" />
     <name>Apache Xalan for C++ XSLT Processor</name>
-    <homepage rdf:resource="http://xml.apache.org/xalan-c/" />
+    <homepage rdf:resource="http://xalan.apache.org/xalan-c" />
     <asfext:pmc rdf:resource="http://xalan.apache.org" />
     <shortdesc>Xalan-C++ is an XSLT processor written in C++.</shortdesc>
-    <description>Xalan-C++ is an XSLT processor for transforming XML documents into HTML, text, or other XML document types.</description>
+    <description>Xalan-C++ is an XSLT processor for transforming XML documents into HTML, 
+     text, or other XML document types. It implements XSL Transformations (XSLT) 
+     Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from the 
+     command line.</description>
     <bug-database rdf:resource="http://issues.apache.org/jira/browse/XALANC" />
-    <mailing-list rdf:resource="http://xml.apache.org/mail.html" />
-    <download-page rdf:resource="http://www.apache.org/dyn/closer.cgi/xml/xalan-c" />
+    <mailing-list rdf:resource="http://mail-archives.apache.org/mod_mbox/" />
+    <download-page rdf:resource="http://xalan.apache.org/xalan-c/download.html" />
     <programming-language>C++</programming-language>
     <category rdf:resource="http://projects.apache.org/category/xml" />
+    <release>
+      <Version>
+        <name>Xalan-C++</name>
+        <created>2012-11-02</created>
+        <revision>1.11</revision>
+      </Version>
+    </release>
     <release>
       <Version>
         <name>Xalan-C++</name>
@@ -50,7 +60,7 @@
     <maintainer>
       <foaf:Person>
         <foaf:name>Xalan-C++ Development Team</foaf:name>
-        <foaf:mbox rdf:resource="mailto:xalan-dev@xml.apache.org"/>
+        <foaf:mbox rdf:resource="mailto:dev@xalan.apache.org"/>
       </foaf:Person>
     </maintainer>
     <asfext:implements><asfext:Standard>
