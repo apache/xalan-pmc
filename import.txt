@@ -1,0 +1,7 @@
+This Git repository was created from an import from Subversion with the following command:
+
+svn2git https://svn.apache.org/repos/asf/xalan/pmc --username ggregory --authors authors.txt --no-minimize-url --trunk / --notags --nobranches --notrunk
+
+The authors.txt file was downloaded from https://gitbox.apache.org/authors.txt
+
+Gary Gregory 2019-04-15
